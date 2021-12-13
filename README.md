@@ -6,6 +6,6 @@
 
  - 官方文档：https://docs-multiplayer.unity3d.com/docs/getting-started/about 
 
-- 玩家控制模块： MRTK
+- XR输入模块： MRTK
 
  - 官方文档：https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05
