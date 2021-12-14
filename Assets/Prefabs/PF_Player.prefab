@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 8387931308151946048}
   - component: {fileID: 2918002285665881018}
   - component: {fileID: 494212404736145881}
-  - component: {fileID: 7224205181977762962}
   - component: {fileID: 7972739708563727954}
   - component: {fileID: 5304586348737903956}
   - component: {fileID: 1627764046833566040}
+  - component: {fileID: -1531298485678897057}
+  - component: {fileID: 5631241479487150036}
   m_Layer: 0
   m_Name: PF_Player
   m_TagString: Untagged
@@ -117,20 +118,6 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &7224205181977762962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433583250756192535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81b0341e9c79948e0bd5852ce893877e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Position:
-    m_InternalValue: {x: 0, y: 0, z: 0}
 --- !u!195 &7972739708563727954
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -192,3 +179,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a0632cf73da4d25aacc634179d013e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Position:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  replicatedPos: {x: 0, y: 0, z: 0}
+--- !u!114 &-1531298485678897057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433583250756192535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &5631241479487150036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433583250756192535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 64614519cb0284a12978a5557cffd5fe, type: 2}
